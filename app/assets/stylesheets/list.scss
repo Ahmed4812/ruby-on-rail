@@ -1,3 +1,48 @@
 // Place all the styles related to the List controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.top{
+    width: 100%;
+    background-color:white;
+    font-size:40px;
+    text-align:center;
+    color:black;
+    
+}
+.button{
+    background-color:black;
+    width:100%;
+    font-size:30px;
+    text-align:center;
+    color: white;
+}
+span{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.box1{
+    background-color:green;
+    display: inline-block;
+}
+.box2{
+    background-color:yellow;
+    position: relative;
+    float:right;
+}
+
+.button1 {
+    transition-duration: 0.4s;
+    font-size:40px;
+    margin:10px;
+    border-radius:5px;
+    border-color:white;
+    color:black;
+}
+
+.button1:hover {
+    background-color: black;
+    color:white;
+}
+
+
